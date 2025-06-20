@@ -1,0 +1,28 @@
+npm i nodemon -D // to install nodemon
+type: module // for import js.
+
+//Notes
+//What is express?
+//Express is a web application framework for Node.js, designed for building web applications and APIs.
+// It simplifies the process of handling HTTP requests, routing, and middleware integration.
+// It provides a robust set of features for web and mobile applications, making it easier to develop server-side applications.
+
+//what is Endpoint?
+//An endpoint is a specific URL or URI where an API can be accessed by a client application.
+//Endpoints are defined by the server and can be used to perform various operations, such as retrieving data, submitting data, or performing actions.
+//=> An endpoint is a combination of URL + HTTP method that lets ht e client interact with a specific resources.
+
+
+=> Routing
+// This code defines the routes for handling notes in an Express application.
+// It includes routes for fetching, creating, updating, and deleting notes.
+// Each route sends a response with a status code and a message.
+// The router is then exported for use in other parts of the application.
+// The code uses Express.js to create a router for handling HTTP requests related to notes.
+// The GET route responds with a success message when notes are fetched.
+// The POST route responds with a success message when a note is created.
+// The PUT route responds with a success message when a note is updated.
+// The DELETE route responds with a success message when a note is deleted.
+// The router is exported for use in other parts of the application, allowing for modular route management.
+// The code is structured to handle CRUD operations for notes, making it easy to manage notes in an application.
+
